@@ -5,7 +5,7 @@ import androidx.room.Relation
 import galstyan.hayk.books.domain.model.Book
 
 
-// TODO: In reality the relationships like author are one-to-many,
+// TODO: In reality the relationships like authors are many-to-many,
 //  but that would require more time which unfortunately I don't have right now :/
 data class BookWithRelations(
     @Embedded val book: BookEntity,
