@@ -2,7 +2,6 @@ package galstyan.hayk.books
 
 import android.content.Intent
 import android.os.Bundle
-import android.util.Log
 import androidx.appcompat.app.AppCompatActivity
 import androidx.navigation.findNavController
 import androidx.navigation.fragment.NavHostFragment
@@ -35,7 +34,6 @@ class MainActivity : AppCompatActivity(R.layout.activity_main) {
 
     override fun onNewIntent(intent: Intent) {
         super.onNewIntent(intent)
-        Log.e("MainActivity", "onNewIntent: $intent")
         findNavController(R.id.navigation_host).handleDeepLink(intent)
     }
 }
