@@ -1,0 +1,9 @@
+<resources>
+
+    <style name="Base.Theme.Books" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="android:statusBarColor">@android:color/white</item>
+        <item name="android:windowContentTransitions">true</item>
+    </style>
+
+    <style name="Theme.Books" parent="Base.Theme.Books" />
+</resources>

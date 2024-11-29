@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Books</string>
+
+    <string name="title_book_list">Book List</string>
+    <string name="title_book_details">Book Details</string>
+    <string name="cd_book_cover">Book cover</string>
+
+    <string name="error_book_list_generic">Failed to load book list</string>
+    <string name="error_book_details_generic">Failed to load book details</string>
+
+    <string name="gutendex_deeplink">https://gutendex.com/books/{bookId}</string>
+
+</resources>
